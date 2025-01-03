@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "R0IpQZg4v/E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danis\\OneDrive\\Escritorio\\d\\Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\danis\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
