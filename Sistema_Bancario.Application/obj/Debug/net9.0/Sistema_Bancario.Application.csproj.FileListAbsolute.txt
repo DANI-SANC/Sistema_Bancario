@@ -1,0 +1,16 @@
+D:\Sistema_Bancario\Sistema_Bancario.Application\bin\Debug\net9.0\Sistema_Bancario.Application.deps.json
+D:\Sistema_Bancario\Sistema_Bancario.Application\bin\Debug\net9.0\Sistema_Bancario.Application.dll
+D:\Sistema_Bancario\Sistema_Bancario.Application\bin\Debug\net9.0\Sistema_Bancario.Application.pdb
+D:\Sistema_Bancario\Sistema_Bancario.Application\bin\Debug\net9.0\Sistema_Bancario.Dominio.dll
+D:\Sistema_Bancario\Sistema_Bancario.Application\bin\Debug\net9.0\Sistema_Bancario.Dominio.pdb
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.csproj.AssemblyReference.cache
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.AssemblyInfoInputs.cache
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.AssemblyInfo.cs
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.csproj.CoreCompileInputs.cache
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.sourcelink.json
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_.D8A7707B.Up2Date
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.dll
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\refint\Sistema_Bancario.Application.dll
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\Sistema_Bancario.Application.pdb
+D:\Sistema_Bancario\Sistema_Bancario.Application\obj\Debug\net9.0\ref\Sistema_Bancario.Application.dll
