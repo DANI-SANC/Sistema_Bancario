@@ -82,3 +82,8 @@ D:\Sistema_Bancario\Sistema_Bancario.Presentacion\obj\Debug\net9.0\refint\Sistem
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\obj\Debug\net9.0\Sistema_Bancario.Presentacion.pdb
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\obj\Debug\net9.0\Sistema_Bancario.Presentacion.genruntimeconfig.cache
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\obj\Debug\net9.0\ref\Sistema_Bancario.Presentacion.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\AutoMapper.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\FluentValidation.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\MediatR.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\MediatR.Contracts.dll

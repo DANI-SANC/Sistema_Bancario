@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Sistema_Bancario.Dominio;
 
@@ -12,13 +13,13 @@ namespace Sistema_Bancario.Infrastructure.Persistence
     {
 
         public DbContextSQL(DbContextOptions<DbContextSQL> options) : base(options) { }
-
+        /*
         public DbContextSQL() : base(new DbContextOptionsBuilder<DbContextSQL>()
             .UseSqlServer("Server=localhost;Database=Sistema_Bancario_QA;User Id=sa;Password=Sql@Server2024;TrustServerCertificate=True")
             .Options)
         {
         }
-
+        */
 
         public DbSet<AplicationUser>?  AplicationUsers {  get; set; }
         public DbSet<Role>? Roles { get; set; }
@@ -43,6 +44,9 @@ namespace Sistema_Bancario.Infrastructure.Persistence
             modelBuilder.Entity<Transaccion>().Property(t => t.Monto).HasColumnType("decimal(18,2)");
         }
 
+
+ 
+        
 
 
     }
