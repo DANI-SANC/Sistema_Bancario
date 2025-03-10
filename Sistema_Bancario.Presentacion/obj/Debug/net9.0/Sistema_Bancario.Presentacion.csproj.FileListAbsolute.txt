@@ -87,3 +87,4 @@ D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\FluentValidat
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\MediatR.dll
 D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\MediatR.Contracts.dll
+D:\Sistema_Bancario\Sistema_Bancario.Presentacion\bin\Debug\net9.0\BCrypt.Net-Next.dll

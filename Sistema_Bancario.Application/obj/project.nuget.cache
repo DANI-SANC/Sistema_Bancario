@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e+/rM10dJ+s=",
+  "dgSpecHash": "HvmcDWRriCo=",
   "success": true,
   "projectFilePath": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danis\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\danis\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\danis\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\danis\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\danis\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",

@@ -29,11 +29,14 @@ namespace Sistema_Bancario.Application.Account.Register
                 return Result<Profile>.Failure("El nombre de usuario ya está registrado por otro usuario");
             }
 
+
+          
+
             var user = new AplicationUser
             {
                 UserName = request.CreateRegisterRequest.UserName,
                 Email = request.CreateRegisterRequest.Email,
-                PasswordHash = request.CreateRegisterRequest.Password,
+    
                 RoleId = request.CreateRegisterRequest.RoleId
             };
 
@@ -42,7 +45,8 @@ namespace Sistema_Bancario.Application.Account.Register
                 userName = user.UserName
             };
 
-            var resultado = await _userManager.CreateAsync(user);
+            var resultado = await _userManager.CreateAsync(user, request.CreateRegisterRequest.Password!);
+
 
             if (resultado.Succeeded)
             {
@@ -50,6 +54,7 @@ namespace Sistema_Bancario.Application.Account.Register
             }
             else
             {
+                Console.WriteLine(resultado);
                 return Result<Profile>.Failure("No se pudo registrar el usuario");
             }
         }

@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Sistema_Bancario.Dominio
 {
-    public class Role : IdentityRole
+    public class Role : BaseEntity
     {
-
+        public string? Nombre { get; set; }
         public string? Descripcion {  get; set; }
         public ICollection<AplicationUser> AplicationUsers { get; set; } = new List<AplicationUser>();
     }

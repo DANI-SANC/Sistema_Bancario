@@ -10,5 +10,6 @@ namespace Sistema_Bancario.Application.Account.Register
     {
 
        public string? userName {  get; set; }
+       
     }
 }

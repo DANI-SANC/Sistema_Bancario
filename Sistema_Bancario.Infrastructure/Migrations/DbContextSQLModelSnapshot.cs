@@ -22,6 +22,189 @@ namespace Sistema_Bancario.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IdentityRole");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6",
+                            Name = "Administrador",
+                            NormalizedName = "Administrador"
+                        },
+                        new
+                        {
+                            Id = "b2c3d4e5-f6a7-48b9-0c1d-e2f3a4b5c6a7",
+                            Name = "CajeroVentanilla",
+                            NormalizedName = "CajeroVentanilla"
+                        });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IdentityRoleClaim<string>");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_DEPOSITO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_DEPOSITO",
+                            RoleId = "b2c3d4e5-f6a7-48b9-0c1d-e2f3a4b5c6a7"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_RETIRO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_RETIRO",
+                            RoleId = "b2c3d4e5-f6a7-48b9-0c1d-e2f3a4b5c6a7"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "RETIRO",
+                            RoleId = "b2c3d4e5-f6a7-48b9-0c1d-e2f3a4b5c6a7"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "RETIRO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "DEPOSITO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "DEPOSITO",
+                            RoleId = "b2c3d4e5-f6a7-48b9-0c1d-e2f3a4b5c6a7"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_ROL",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "ELIMINAR_ROL",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "MODIFICAR_ROL",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "REGISTRAR_ROL",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "REGISTRAR_USUARIO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "MODIFICAR_USUARIO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "ELIMINAR_USUARIO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_USUARIO",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "REGISTRAR_CUENTA",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            ClaimType = "POLICIES",
+                            ClaimValue = "LEER_CUENTA",
+                            RoleId = "a1b2c3d4-e5f6-47a8-9b0c-d1e2f3a4b5c6"
+                        });
+                });
+
             modelBuilder.Entity("Sistema_Bancario.Dominio.AplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -73,6 +256,8 @@ namespace Sistema_Bancario.Infrastructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
 
                     b.ToTable("AplicationUsers");
                 });
@@ -130,24 +315,36 @@ namespace Sistema_Bancario.Infrastructure.Migrations
 
             modelBuilder.Entity("Sistema_Bancario.Dominio.Role", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("NormalizedName")
+                    b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("Sistema_Bancario.Dominio.TipoTransaccion", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TipoTransacciones");
                 });
 
             modelBuilder.Entity("Sistema_Bancario.Dominio.Transaccion", b =>
@@ -168,9 +365,14 @@ namespace Sistema_Bancario.Infrastructure.Migrations
                     b.Property<decimal?>("Monto")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<Guid?>("TipoTransaccionId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CuentaBancariaId");
+
+                    b.HasIndex("TipoTransaccionId");
 
                     b.ToTable("Transacciones");
                 });
@@ -179,9 +381,8 @@ namespace Sistema_Bancario.Infrastructure.Migrations
                 {
                     b.HasOne("Sistema_Bancario.Dominio.Role", "Role")
                         .WithMany("AplicationUsers")
-                        .HasForeignKey("Id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("Role");
                 });
@@ -203,7 +404,14 @@ namespace Sistema_Bancario.Infrastructure.Migrations
                         .HasForeignKey("CuentaBancariaId")
                         .OnDelete(DeleteBehavior.Restrict);
 
+                    b.HasOne("Sistema_Bancario.Dominio.TipoTransaccion", "TipoTransaccion")
+                        .WithMany("Transaccion")
+                        .HasForeignKey("TipoTransaccionId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.Navigation("CuentaBancaria");
+
+                    b.Navigation("TipoTransaccion");
                 });
 
             modelBuilder.Entity("Sistema_Bancario.Dominio.Cliente", b =>
@@ -219,6 +427,11 @@ namespace Sistema_Bancario.Infrastructure.Migrations
             modelBuilder.Entity("Sistema_Bancario.Dominio.Role", b =>
                 {
                     b.Navigation("AplicationUsers");
+                });
+
+            modelBuilder.Entity("Sistema_Bancario.Dominio.TipoTransaccion", b =>
+                {
+                    b.Navigation("Transaccion");
                 });
 #pragma warning restore 612, 618
         }

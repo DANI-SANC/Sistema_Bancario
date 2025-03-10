@@ -32,6 +32,9 @@ namespace Sistema_Bancario.Infrastructure.Persistence
                 opt.UseSqlServer(configuration.GetConnectionString("SQL"));
             });
 
+
+
+
             // Devuelve el servicio de colección modificado, que incluye `DbContextSQL`
             return services;
         }
