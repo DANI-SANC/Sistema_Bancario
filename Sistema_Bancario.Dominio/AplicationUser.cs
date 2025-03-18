@@ -11,5 +11,6 @@ namespace Sistema_Bancario.Dominio
     {
       public Guid? RoleId { get; set; }
       public Role? Role {  get; set; } 
+   
     }
 }
