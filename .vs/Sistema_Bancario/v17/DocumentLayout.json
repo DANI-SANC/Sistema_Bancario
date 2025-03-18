@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "D:\\Sistema_Bancario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\account\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\account\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\account\\register\\createregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\account\\register\\createregistercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\account\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\account\\login\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\result\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\result\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\account\\login\\loginprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\account\\login\\loginprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|d:\\sistema_bancario\\sistema_bancario.application\\account\\register\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A511196F-1657-40C4-82CA-C3D56CDA32DA}|Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj|solutionrelative:sistema_bancario.application\\account\\register\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D233852D-CA61-498E-9E9A-64C70170B1F2}|Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj|d:\\sistema_bancario\\sistema_bancario.presentacion\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D233852D-CA61-498E-9E9A-64C70170B1F2}|Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj|solutionrelative:sistema_bancario.presentacion\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginProfile.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginProfile.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Account\\Login\\LoginProfile.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginProfile.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Account\\Login\\LoginProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:51:25.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Result.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Result\\Result.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Result\\Result.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Result\\Result.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Result\\Result.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:50:47.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Register\\Profile.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Account\\Register\\Profile.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Register\\Profile.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Account\\Register\\Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:49:11.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Account\\Login\\LoginRequest.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginRequest.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Account\\Login\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:37:55.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateRegisterCommandHandler.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Register\\CreateRegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Account\\Register\\CreateRegisterCommandHandler.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Register\\CreateRegisterCommandHandler.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Account\\Register\\CreateRegisterCommandHandler.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwCoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:25:03.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "Sistema_Bancario.Application\\Account\\Login\\LoginCommandHandler.cs",
-              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Account\\Login\\LoginCommandHandler.cs",
-              "RelativeToolTip": "Sistema_Bancario.Application\\Account\\Login\\LoginCommandHandler.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDcAAAAAAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Sistema_Bancario.Presentacion\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Sistema_Bancario.Presentacion\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T21:25:50.916Z",
+              "WhenOpened": "2025-03-18T15:43:10.388Z",
               "EditorCaption": ""
             }
           ]
