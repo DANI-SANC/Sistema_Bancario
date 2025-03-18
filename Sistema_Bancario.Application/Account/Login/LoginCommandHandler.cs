@@ -15,7 +15,7 @@ using Sistema_Bancario.Dominio;
 namespace Sistema_Bancario.Application.Account.Login
 {
 
-    public record LoginCommandRequest(LoginRequest loginRequest) : IRequest<Result<LoginProfile>>;
+    public record LoginCommandRequest(LoginRequestt loginRequest) : IRequest<Result<LoginProfile>>;
     public class LoginCommandHandler : IRequestHandler<LoginCommandRequest, Result<LoginProfile>>
     {
 
