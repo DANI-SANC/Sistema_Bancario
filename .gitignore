@@ -1,2 +1,5 @@
 .vs/
-/obj/
+.Sistema_Bancario.Application/obj/
+.Sistema_Bancario.Dominio/obj/
+.Sistema_Bancario.Infrastructure/obj/
+.Sistema_Bancario.Presentatcion/obj/
