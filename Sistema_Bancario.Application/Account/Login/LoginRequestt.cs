@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sistema_Bancario.Application.Account.Login
 {
-    public class LoginRequest
+    public class LoginRequestt
     {
         public string? userName {  get; set; }
 

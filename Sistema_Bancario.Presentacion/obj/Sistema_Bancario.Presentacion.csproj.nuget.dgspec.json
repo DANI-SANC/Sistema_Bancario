@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj": {}
+    "D:\\Sistema_Bancario\\Sistema_bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj": {}
   },
   "projects": {
     "D:\\Sistema_Bancario\\Sistema_Bancario.Application\\Sistema_Bancario.Application.csproj": {
@@ -254,14 +254,14 @@
         }
       }
     },
-    "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj": {
+    "D:\\Sistema_Bancario\\Sistema_bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj",
+        "projectUniqueName": "D:\\Sistema_Bancario\\Sistema_bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj",
         "projectName": "Sistema_Bancario.Presentacion",
-        "projectPath": "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj",
+        "projectPath": "D:\\Sistema_Bancario\\Sistema_bancario.Presentacion\\Sistema_Bancario.Presentacion.csproj",
         "packagesPath": "C:\\Users\\danis\\.nuget\\packages\\",
-        "outputPath": "D:\\Sistema_Bancario\\Sistema_Bancario.Presentacion\\obj\\",
+        "outputPath": "D:\\Sistema_Bancario\\Sistema_bancario.Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

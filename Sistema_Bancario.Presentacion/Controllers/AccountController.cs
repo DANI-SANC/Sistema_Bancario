@@ -1,5 +1,7 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using Sistema_Bancario.Application.Account.Login;
 using Sistema_Bancario.Application.Account.Register;
 
 
@@ -18,7 +20,7 @@ namespace Sistema_Bancario.Presentacion.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> RegisterAccount([FromBody] CreateRegisterRequest request, CancellationToken cancellationToken)
         {
             var command = new CreateRegisterCommandRequest(request);
@@ -33,6 +35,23 @@ namespace Sistema_Bancario.Presentacion.Controllers
             return BadRequest(result.Error);
 
         }
+
+        [HttpPost("login")] 
+        public async Task<IActionResult> LoginAccount([FromBody] LoginRequestt request, CancellationToken cancellationToken)
+        {
+            var command = new LoginCommandRequest(request);
+            var result = await _sender.Send(command, cancellationToken);
+
+            if (result.IsSuccess)
+            {
+                return Ok(result);
+            }
+            else
+            {
+                return BadRequest(result.Error); 
+            }
+        }
+
 
     }
 }
