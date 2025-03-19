@@ -10,6 +10,7 @@ COPY Sistema_Bancario.Infrastructure/*.csproj ./Sistema_Bancario.Infrastructure/
 COPY Sistema_Bancario.Presentacion/*.csproj ./Sistema_Bancario.Presentacion/
 RUN dotnet restore
 
+
 # Copiar el código fuente y compilar
 COPY . .
 WORKDIR /app/Sistema_Bancario.Presentacion
@@ -24,7 +25,7 @@ COPY --from=build /publish .
 ENV ConnectionStrings__SQL="Server=sqlserver;Database=Sistema_Bancario_QA;User Id=sa;Password=Sql@Server2024;TrustServerCertificate=True;"
 
 # Exponer el puerto 8080
-ENV ASPNETCORE_URLS=http://+:8080
-EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:8081
+EXPOSE 8081
 
 ENTRYPOINT ["dotnet", "Sistema_Bancario.Presentacion.dll"]
