@@ -44,7 +44,6 @@ namespace Sistema_Bancario.Presentacion.Controllers
 
 
 
-
             if (result.IsSuccess)
             {
                 return Ok(result);
