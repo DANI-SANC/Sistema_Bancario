@@ -21,8 +21,8 @@ jobs:
 
       - name: 🏗️ Construir la imagen Docker
         run: |
-          cd Sistema_Bancario.Presentacion
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/sistema_bancario:qa .
+          # Construir la imagen Docker desde la carpeta raíz donde está el Dockerfile
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/sistema_bancario:qa -f Dockerfile .
 
       - name: 🚀 Subir imagen a Docker Hub
         run: |
