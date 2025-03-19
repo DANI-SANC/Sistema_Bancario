@@ -3,11 +3,11 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copiar la solución y restaurar dependencias
-COPY *.sln .
-COPY Sistema_Bancario.Dominio/*.csproj ./Sistema_Bancario.Dominio/
-COPY Sistema_Bancario.Application/*.csproj ./Sistema_Bancario.Application/
-COPY Sistema_Bancario.Infrastructure/*.csproj ./Sistema_Bancario.Infrastructure/
-COPY Sistema_Bancario.Presentacion/*.csproj ./Sistema_Bancario.Presentacion/
+COPY ../*.sln .
+COPY ../Sistema_Bancario.Dominio/*.csproj ./Sistema_Bancario.Dominio/
+COPY ../Sistema_Bancario.Application/*.csproj ./Sistema_Bancario.Application/
+COPY ../Sistema_Bancario.Infrastructure/*.csproj ./Sistema_Bancario.Infrastructure/
+COPY ../Sistema_Bancario.Presentacion/*.csproj ./Sistema_Bancario.Presentacion/
 RUN dotnet restore
 
 
